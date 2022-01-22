@@ -45,7 +45,7 @@ export default function Home() {
 					</p>
 					<p>
 						Finally, feel free to take a look around this website and its code! 
-						Excepting this landing page, we'll be creating the following pages, 
+						Excepting this landing page, we&apos;ll be creating the following pages, 
 						which are also located in the nav bar:
 					</p>
 
