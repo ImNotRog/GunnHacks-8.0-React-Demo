@@ -44,8 +44,9 @@
 .content li {
 	text-indent: -1rem;
 }
-.content li:not(:last-child) { 
-	margin-bottom: 10px;
+.content li { 
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 .content a {
