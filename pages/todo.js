@@ -37,9 +37,11 @@ export default function Todo () {
         <div className={styles.main}>
 
             <Head>
-                <title>Todo</title>
+                <title>Todo Demo</title>
             </Head>
 
+            <h1>Todo App</h1>
+            
             <div className={styles.list}>
                 {todos.map((a,i) => 
                     <div key={i} className={styles.item}>
@@ -56,6 +58,7 @@ export default function Todo () {
             <div className={styles.footer}>
                 <input 
                     value={text}
+                    placeholder="Add a Task!"
                     onChange={(e) => setText(e.target.value)} 
                     onKeyPress={(e) => e.key === 'Enter' ? addItem() : null} 
                     className={styles.input} />

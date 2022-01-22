@@ -16,7 +16,7 @@ export default function Home() {
 			<Nav />
 			<div className={styles.main}>
 				<div className={styles.header}>
-					<div className={styles.subtitle}><span className={styles.gunn}>Gunn</span>Hacks 8.0</div>
+					<div className={styles.subtitle}><a href="https://www.gunnhacks.com/"><span className={styles.gunn}>Gunn</span>Hacks 8.0</a></div>
 					<div className={styles.title}><span className={styles.react}>React</span> Workshop</div>
 				</div>
 

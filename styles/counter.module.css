@@ -1,0 +1,24 @@
+
+.main {
+  padding: 10px 30px 30px 30px;
+}
+
+.button, .off, .on {
+	border: none;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	font-size: 3rem;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button, .off {
+	background-color: #242A32;
+	color: white;
+}
+
+.on {
+	background-color: #A8A8B7;
+	color: #242A32;
+}
