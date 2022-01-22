@@ -5,5 +5,6 @@ export default function Nav() {
     return <div className={styles.nav}>
         <Link href="/"><div>Home</div></Link>
         <Link href="/todo"><div>Todo</div></Link>
+        <img src={"/lambdacool.png"} width={30} height={30} />
     </div>
 }

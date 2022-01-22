@@ -30,8 +30,10 @@ export default function Todo () {
         setTodos(todos.filter((_,j) => j !== i));
     }
 
-    return <div className={styles.container}>
+    return <div>
+        
         <Nav />
+
         <div className={styles.main}>
 
             <Head>
@@ -59,6 +61,7 @@ export default function Todo () {
                     className={styles.input} />
             </div>
         </div>
+
     </div>
 
 }

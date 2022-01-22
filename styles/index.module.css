@@ -1,0 +1,61 @@
+.main {
+  padding: 20px;
+}
+
+.header {
+	padding: 50px 0px 0px 20px;
+	transform: rotate(-7deg);
+	transform-origin: top left;
+}
+
+.subtitle {
+	font-size: 2rem;
+	font-style: italic;
+}
+.title {
+  font-weight: 900;
+  font-style: italic;
+	font-size: 5rem;
+}
+
+.gunn {
+	color: #F64658;
+}
+
+.react {
+	background: rgb(249,56,75);
+	background: linear-gradient(90deg, rgba(249,56,75,1) 0%, rgba(218,191,255,1) 97%);
+	background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content {
+	padding: 0px 30px;
+}
+
+.content ul {
+	list-style: none;
+}
+
+.content li::before {
+	content: ' λ ';
+}
+.content li {
+	text-indent: -1rem;
+}
+.content li:not(:last-child) { 
+	margin-bottom: 10px;
+}
+
+.content a {
+	text-decoration: underline;
+}
+
+.em {
+	font-weight: 900;
+	font-style: italic;
+}
+.purple {
+	color: #DABFFF;
+}

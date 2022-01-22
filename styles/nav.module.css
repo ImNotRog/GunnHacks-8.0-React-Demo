@@ -1,11 +1,16 @@
 .nav {
     display: flex;
     flex-direction: row;
-    gap: 15px;
-    padding: 10px;
-    background-color: rgb(179, 179, 179);
+    align-items: center;
+    gap: 30px;
+    padding: 17px 30px;
+    border-bottom: 1px solid #ffffff55;
 }
 
 .nav div {
     cursor: pointer;
+}
+
+.nav img {
+    margin-left: auto;
 }
