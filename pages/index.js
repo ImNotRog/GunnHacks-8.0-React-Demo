@@ -23,6 +23,18 @@ export default function Home() {
 				<div className={styles.content}>
 					<p>Hi! This is the landing page for the GunnHacks 8.0 <span className={styles.react}>React</span> Workshop!</p>
 
+					<p>
+						<span className={styles.em + ' ' + styles.gunn}>Before the workshop</span>,
+						please get set up! Refer to the first link below for instructions.
+					</p>
+
+					<p>
+						We recommend this workshop mainly for intermediate programmers. If you haven't seen code before,
+						you might have a harder time following along.
+						If you are new to web development, we highly suggest you look over our short blurb below
+						on <span className={styles.purple}>HTML, CSS, and JS</span> before attending the workshop.
+					</p>
+
 					{/* <h2>Links</h2> */}
 					<ul>
 						<li className={styles.gunn}>
@@ -37,14 +49,7 @@ export default function Home() {
 						<li><a href="https://www.figma.com/file/2imkRBoOLdso3LcK5LxU7U/GunnHacks-8.0-React-Workshop?node-id=0%3A1" target="_blank" rel="noopener noreferrer">Figma</a></li>
 					</ul>
 
-					<p>
-						<span className={styles.em + ' ' + styles.gunn}>Before the workshop</span>, 
-						please get set up! Refer to the first link above for instructions.
-					</p>
-					<p>
-						Additionally, if you are new to web development, we highly suggest you look over our short blurb on 
-						HTML, CSS, and JS before attending the workshop.
-					</p>
+					
 					<p>
 						Feel free to take a look around this website and its code! 
 						Excepting this landing page, we&apos;ll be creating the following pages, 
@@ -82,7 +87,7 @@ export default function Home() {
 						</li>
 
 
-						<li>Google. When in doubt, Google is your friend.</li>
+						<li>Google!</li>
 					</ul>
 				</div>
 			</div>
