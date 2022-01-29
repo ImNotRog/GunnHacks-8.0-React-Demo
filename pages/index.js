@@ -30,7 +30,10 @@ export default function Home() {
 
 					<p>
 						We recommend this workshop mainly for intermediate programmers. If you haven't seen code before,
-						you might have a harder time following along.
+						you might have a harder time following along, but it's definitely still possible.
+					</p>
+
+					<p>
 						If you are new to web development, we highly suggest you look over our short blurb below
 						on <span className={styles.purple}>HTML, CSS, and JS</span> before attending the workshop.
 					</p>
@@ -42,7 +45,7 @@ export default function Home() {
 								Setup Instructions
 							</a> (Required <span className={styles.em}>Before</span> Workshop!)
 						</li>
-						<li className={styles.purple}>Basics of HTML / CSS / JS</li>
+						<li className={styles.purple}><a target="_blank" rel="noopener noreferrer" href="https://gist.github.com/ImNotRog/8621fa25577c827c3b691d44fe60a868">Basics of HTML / CSS / JS</a></li>
 						<li><a href="https://github.com/ImNotRog/GunnHacks-8.0-React-Demo" target="_blank" rel="noopener noreferrer">
 							Github Repository
 						</a></li>
