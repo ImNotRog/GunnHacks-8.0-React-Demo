@@ -29,8 +29,8 @@ export default function Home() {
 					</p>
 
 					<p>
-						We recommend this workshop mainly for intermediate programmers. If you haven't seen code before,
-						you might have a harder time following along, but it's definitely still possible.
+						We recommend this workshop mainly for intermediate programmers. If you haven&apos;t seen code before,
+						you might have a harder time following along, but it&apos;s definitely still possible.
 					</p>
 
 					<p>
